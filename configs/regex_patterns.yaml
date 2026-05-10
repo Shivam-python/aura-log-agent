@@ -1,0 +1,24 @@
+patterns:
+  - pattern: "User User\\d+ logged (in|out)."
+    label: "User Action"
+
+  - pattern: "Backup (started|ended) at .*"
+    label: "System Notification"
+
+  - pattern: "Backup completed successfully."
+    label: "System Notification"
+
+  - pattern: "System updated to version .*"
+    label: "System Notification"
+
+  - pattern: "File .* uploaded successfully by user .*"
+    label: "System Notification"
+
+  - pattern: "Disk cleanup completed successfully."
+    label: "System Notification"
+
+  - pattern: "System reboot initiated by user .*"
+    label: "System Notification"
+
+  - pattern: "Account with ID .* created by .*"
+    label: "User Action"
