@@ -1,4 +1,5 @@
 import joblib
+from sentence_transformers import SentenceTransformer
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
@@ -9,6 +10,14 @@ class LogClassifier:
 
     def __init__(self):
         self.model = LogisticRegression(max_iter=1000)
+        self.embedding_model = SentenceTransformer(
+            'all-MiniLM-L6-v2'
+        )
+
+        # LOAD trained model
+        self.clf = joblib.load(
+            "models/log_classifier.joblib"
+        )
 
     def train(self, X, y):
 
@@ -33,5 +42,11 @@ class LogClassifier:
     def load(self, path):
         self.model = joblib.load(path)
 
-    def predict(self, X):
-        return self.model.predict(X)
+    def predict(self, log_message):
+        embedding = self.embedding_model.encode(
+            [log_message]
+        )
+
+        prediction = self.clf.predict(embedding)
+
+        return prediction[0]

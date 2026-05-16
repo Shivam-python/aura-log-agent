@@ -1,0 +1,188 @@
+source,log_message,target_label
+BillingSystem,User 10001 logged in.,Security Alert
+BillingSystem,User 10002 logged out.,Security Alert
+BillingSystem,User 10003 logged in.,Security Alert
+BillingSystem,User 10004 logged out.,Security Alert
+BillingSystem,User 10005 logged in.,Security Alert
+BillingSystem,User 10006 logged out.,Security Alert
+BillingSystem,User 10007 logged in.,Security Alert
+BillingSystem,User 10008 logged out.,Security Alert
+BillingSystem,User 10009 logged in.,Security Alert
+BillingSystem,User 10010 logged out.,Security Alert
+BillingSystem,Account with ID ACC-1001 created by Admin01.,User Action
+BillingSystem,Account with ID ACC-1002 created by Admin02.,User Action
+BillingSystem,Account with ID ACC-1003 created by Admin03.,User Action
+BillingSystem,Account with ID ACC-1004 created by Admin04.,User Action
+BillingSystem,Account with ID ACC-1005 created by Admin05.,User Action
+Portal,User User101 logged in.,User Action
+Portal,User User102 logged out.,User Action
+Portal,User User103 logged in.,User Action
+Portal,User User104 logged out.,User Action
+Portal,User User105 logged in.,User Action
+Portal,User User106 logged out.,User Action
+Portal,User User107 logged in.,User Action
+Portal,User User108 logged out.,User Action
+Portal,User User109 logged in.,User Action
+Portal,User User110 logged out.,User Action
+Portal,User User111 authenticated successfully.,Security Alert
+Portal,User User112 session terminated.,Security Alert
+Portal,User User113 authenticated successfully.,Security Alert
+Portal,User User114 session terminated.,Security Alert
+Portal,User User115 authenticated successfully.,Security Alert
+AnalyticsEngine,File sales_1001.csv uploaded successfully by user User501.,System Notification
+AnalyticsEngine,File sales_1002.csv uploaded successfully by user User502.,System Notification
+AnalyticsEngine,File sales_1003.csv uploaded successfully by user User503.,System Notification
+AnalyticsEngine,File sales_1004.csv uploaded successfully by user User504.,System Notification
+AnalyticsEngine,File sales_1005.csv uploaded successfully by user User505.,System Notification
+AnalyticsEngine,File sales_1006.csv uploaded successfully by user User506.,System Notification
+AnalyticsEngine,File sales_1007.csv uploaded successfully by user User507.,System Notification
+AnalyticsEngine,File sales_1008.csv uploaded successfully by user User508.,System Notification
+AnalyticsEngine,File sales_1009.csv uploaded successfully by user User509.,System Notification
+AnalyticsEngine,File sales_1010.csv uploaded successfully by user User510.,System Notification
+AnalyticsEngine,Backup completed successfully.,System Notification
+AnalyticsEngine,Backup completed successfully.,System Notification
+AnalyticsEngine,Backup completed successfully.,System Notification
+AnalyticsEngine,Backup started at 2026-05-10 01:00:00.,System Notification
+AnalyticsEngine,Backup started at 2026-05-11 01:00:00.,System Notification
+AnalyticsEngine,Backup started at 2026-05-12 01:00:00.,System Notification
+AnalyticsEngine,Backup ended at 2026-05-10 01:30:00.,System Notification
+AnalyticsEngine,Backup ended at 2026-05-11 01:30:00.,System Notification
+AnalyticsEngine,Backup ended at 2026-05-12 01:30:00.,System Notification
+Infra,Disk cleanup completed successfully.,System Notification
+Infra,Disk cleanup completed successfully.,System Notification
+Infra,Disk cleanup completed successfully.,System Notification
+Infra,Disk cleanup completed successfully.,System Notification
+Infra,Disk cleanup completed successfully.,System Notification
+Infra,System reboot initiated by user OpsAdmin01.,System Notification
+Infra,System reboot initiated by user OpsAdmin02.,System Notification
+Infra,System reboot initiated by user OpsAdmin03.,System Notification
+Infra,System reboot initiated by user OpsAdmin04.,System Notification
+Infra,System reboot initiated by user OpsAdmin05.,System Notification
+Infra,System updated to version 5.0.1.,System Notification
+Infra,System updated to version 5.0.2.,System Notification
+Infra,System updated to version 5.0.3.,System Notification
+Infra,System updated to version 5.1.0.,System Notification
+Infra,System updated to version 5.2.0.,System Notification
+SecurityGateway,IP 192.168.1.1 blocked due to suspicious activity.,Security Alert
+SecurityGateway,IP 192.168.1.2 blocked due to suspicious activity.,Security Alert
+SecurityGateway,IP 192.168.1.3 blocked due to suspicious activity.,Security Alert
+SecurityGateway,IP 192.168.1.4 blocked due to suspicious activity.,Security Alert
+SecurityGateway,IP 192.168.1.5 blocked due to suspicious activity.,Security Alert
+SecurityGateway,Potential brute-force attack detected from IP 10.10.0.1.,Security Alert
+SecurityGateway,Potential brute-force attack detected from IP 10.10.0.2.,Security Alert
+SecurityGateway,Potential brute-force attack detected from IP 10.10.0.3.,Security Alert
+SecurityGateway,Potential brute-force attack detected from IP 10.10.0.4.,Security Alert
+SecurityGateway,Potential brute-force attack detected from IP 10.10.0.5.,Security Alert
+ModernHR,GET /v1/servers/status HTTP/1.1 RCODE 200 len: 2100 time: 0.081,HTTP Status
+ModernHR,GET /v1/servers/status HTTP/1.1 RCODE 200 len: 2200 time: 0.082,HTTP Status
+ModernHR,GET /v1/servers/status HTTP/1.1 RCODE 200 len: 2300 time: 0.083,HTTP Status
+ModernHR,GET /v1/servers/status HTTP/1.1 RCODE 200 len: 2400 time: 0.084,HTTP Status
+ModernHR,GET /v1/servers/status HTTP/1.1 RCODE 200 len: 2500 time: 0.085,HTTP Status
+ModernHR,POST /api/v2/employees/update HTTP/1.1 RCODE 201 len: 900 time: 0.190,HTTP Status
+ModernHR,POST /api/v2/employees/update HTTP/1.1 RCODE 201 len: 910 time: 0.191,HTTP Status
+ModernHR,POST /api/v2/employees/update HTTP/1.1 RCODE 201 len: 920 time: 0.192,HTTP Status
+ModernHR,POST /api/v2/employees/update HTTP/1.1 RCODE 201 len: 930 time: 0.193,HTTP Status
+ModernHR,POST /api/v2/employees/update HTTP/1.1 RCODE 201 len: 940 time: 0.194,HTTP Status
+ModernHR,Admin access escalation detected for user 2001.,Security Alert
+ModernHR,Admin access escalation detected for user 2002.,Security Alert
+ModernHR,Admin access escalation detected for user 2003.,Security Alert
+ModernHR,Admin access escalation detected for user 2004.,Security Alert
+ModernHR,Admin access escalation detected for user 2005.,Security Alert
+LegacyCRM,Customer profile synchronization failed for account ID 3001 because the destination node timed out.,Workflow Error
+LegacyCRM,Customer profile synchronization failed for account ID 3002 because the destination node timed out., Workflow Error 
+LegacyCRM,Customer profile synchronization failed for account ID 3003 because the destination node timed out., Workflow Error 
+LegacyCRM,Customer profile synchronization failed for account ID 3004 because the destination node timed out., Workflow Error 
+LegacyCRM,Customer profile synchronization failed for account ID 3005 because the destination node timed out., Workflow Error 
+LegacyCRM,Ticket assignment workflow aborted because the escalation matrix configuration was missing., Workflow Error 
+LegacyCRM,Ticket assignment workflow aborted because the escalation matrix configuration was missing., Workflow Error 
+LegacyCRM,Ticket assignment workflow aborted because the escalation matrix configuration was missing., Workflow Error 
+LegacyCRM,The 'LegacyNotifier' module has been deprecated and will be removed in the next release cycle., (2) Deprecation Warning 
+LegacyCRM,The 'LegacyNotifier' module has been deprecated and will be removed in the next release cycle., (2) Deprecation Warning 
+LegacyCRM,The 'LegacyNotifier' module has been deprecated and will be removed in the next release cycle., (2) Deprecation Warning 
+LegacyCRM,Contract renewal batch job failed because the pricing engine returned inconsistent values., Workflow Error 
+LegacyCRM,Contract renewal batch job failed because the pricing engine returned inconsistent values., Workflow Error 
+LegacyCRM,Contract renewal batch job failed because the pricing engine returned inconsistent values., Workflow Error 
+LegacyCRM,Case archival process could not complete because the storage adapter was unavailable., Workflow Error 
+LegacyCRM,Case archival process could not complete because the storage adapter was unavailable., Workflow Error 
+LegacyCRM,Case archival process could not complete because the storage adapter was unavailable., Workflow Error 
+LegacyCRM,The 'ClassicDashboard' feature will be sunset after version 5.2. Migrate to 'UnifiedInsightsPortal'., (2) Deprecation Warning 
+LegacyCRM,The 'ClassicDashboard' feature will be sunset after version 5.2. Migrate to 'UnifiedInsightsPortal'., (2) Deprecation Warning 
+LegacyCRM,The 'ClassicDashboard' feature will be sunset after version 5.2. Migrate to 'UnifiedInsightsPortal'., (2) Deprecation Warning 
+LegacyCRM,Order reconciliation failed because the finance connector returned malformed response payloads., Workflow Error 
+LegacyCRM,Order reconciliation failed because the finance connector returned malformed response payloads., Workflow Error 
+LegacyCRM,Order reconciliation failed because the finance connector returned malformed response payloads., Workflow Error 
+LegacyCRM,The 'UserImportWizard' component is deprecated. Please migrate to the 'BulkIdentityManager' service., (2) Deprecation Warning 
+LegacyCRM,The 'UserImportWizard' component is deprecated. Please migrate to the 'BulkIdentityManager' service., (2) Deprecation Warning 
+LegacyCRM,The 'UserImportWizard' component is deprecated. Please migrate to the 'BulkIdentityManager' service., (2) Deprecation Warning 
+LegacyCRM,Email dispatch queue processing stopped because the SMTP relay configuration could not be validated., Workflow Error 
+LegacyCRM,Email dispatch queue processing stopped because the SMTP relay configuration could not be validated., Workflow Error 
+LegacyCRM,Email dispatch queue processing stopped because the SMTP relay configuration could not be validated., Workflow Error 
+LegacyCRM,The 'LegacyAnalyticsView' module will be retired by Q1 2027. Use 'SmartMetricsCenter' instead., (2) Deprecation Warning 
+LegacyCRM,The 'LegacyAnalyticsView' module will be retired by Q1 2027. Use 'SmartMetricsCenter' instead., (2) Deprecation Warning 
+LegacyCRM,The 'LegacyAnalyticsView' module will be retired by Q1 2027. Use 'SmartMetricsCenter' instead., (2) Deprecation Warning 
+LegacyCRM,Invoice reconciliation aborted because downstream ledger validation failed for transaction batch 221.,Workflow Error
+LegacyCRM,Invoice reconciliation aborted because downstream ledger validation failed for transaction batch 222.,Workflow Error
+LegacyCRM,Invoice reconciliation aborted because downstream ledger validation failed for transaction batch 223., Workflow Error 
+LegacyCRM,Support workflow migration could not complete because the target region configuration was incomplete., Workflow Error 
+LegacyCRM,Support workflow migration could not complete because the target region configuration was incomplete.,Workflow Error
+LegacyCRM,Support workflow migration could not complete because the target region configuration was incomplete., Workflow Error 
+LegacyCRM,Data archival failed because the retention policy parser returned an invalid configuration state., Workflow Error 
+LegacyCRM,Data archival failed because the retention policy parser returned an invalid configuration state., Workflow Error 
+LegacyCRM,Workflow execution halted because the orchestration engine lost connectivity with the scheduler., Workflow Error 
+LegacyCRM,Workflow execution halted because the orchestration engine lost connectivity with the scheduler., Workflow Error 
+LegacyCRM,Billing reconciliation failed because the payment gateway adapter timed out during settlement., Workflow Error 
+LegacyCRM,Billing reconciliation failed because the payment gateway adapter timed out during settlement., Workflow Error 
+LegacyCRM,Legacy user migration aborted because duplicate customer records were detected., Workflow Error 
+LegacyCRM,Legacy user migration aborted because duplicate customer records were detected., Workflow Error 
+LegacyCRM,Notification delivery failed because the messaging provider rejected authentication credentials., Workflow Error 
+LegacyCRM,Notification delivery failed because the messaging provider rejected authentication credentials., Workflow Error 
+LegacyCRM,Historical analytics export stopped because the CSV formatter exceeded memory allocation limits., Workflow Error 
+LegacyCRM,Historical analytics export stopped because the CSV formatter exceeded memory allocation limits., Workflow Error 
+LegacyCRM,Role synchronization failed because the access-control manifest was corrupted., Workflow Error 
+LegacyCRM,Role synchronization failed because the access-control manifest was corrupted., Workflow Error 
+LegacyCRM,Session cleanup task aborted because expired session indexes could not be loaded., Workflow Error 
+LegacyCRM,Session cleanup task aborted because expired session indexes could not be loaded., Workflow Error 
+LegacyCRM,Product catalog indexing failed because the search shard returned inconsistent mappings., Workflow Error 
+LegacyCRM,Product catalog indexing failed because the search shard returned inconsistent mappings., Workflow Error 
+LegacyCRM,Queue processing paused because dependent worker nodes became unreachable., Workflow Error 
+LegacyCRM,Queue processing paused because dependent worker nodes became unreachable., Workflow Error 
+LegacyCRM,Document rendering failed because the template engine could not resolve placeholder variables., Workflow Error 
+LegacyCRM,Document rendering failed because the template engine could not resolve placeholder variables., Workflow Error 
+LegacyCRM,Metrics aggregation task aborted because the telemetry source returned malformed payloads., Workflow Error 
+LegacyCRM,Metrics aggregation task aborted because the telemetry source returned malformed payloads., Workflow Error 
+LegacyCRM,Report scheduling failed because the cron parser encountered unsupported syntax., Workflow Error 
+LegacyCRM,Report scheduling failed because the cron parser encountered unsupported syntax., Workflow Error 
+LegacyCRM,Email campaign generation aborted because recipient segmentation rules produced empty datasets., Workflow Error 
+LegacyCRM,Email campaign generation aborted because recipient segmentation rules produced empty datasets., Workflow Error 
+LegacyCRM,Search optimization task failed because the index compaction service exceeded retry thresholds., Workflow Error 
+LegacyCRM,Search optimization task failed because the index compaction service exceeded retry thresholds.,Workflow Error
+LegacyCRM,Legacy API compatibility validation failed because schema mappings were incomplete., Deprecation Warning 
+LegacyCRM,Legacy API compatibility validation failed because schema mappings were incomplete., Workflow Error 
+LegacyCRM,Customer onboarding workflow paused because the KYC verification provider returned ambiguous results., Workflow Error 
+LegacyCRM,Customer onboarding workflow paused because the KYC verification provider returned ambiguous results., Workflow Error 
+LegacyCRM,Support ticket export failed because attachment metadata references were invalid., Workflow Error 
+LegacyCRM,Support ticket export failed because attachment metadata references were invalid., Workflow Error 
+LegacyCRM,Analytics synchronization failed because upstream cache invalidation events were dropped., Workflow Error 
+LegacyCRM,Analytics synchronization failed because upstream cache invalidation events were dropped., Workflow Error 
+LegacyCRM,Subscription renewal processing halted because downstream invoice approval rules conflicted., Workflow Error 
+LegacyCRM,Subscription renewal processing halted because downstream invoice approval rules conflicted., Workflow Error 
+LegacyCRM,Legacy audit service will be deprecated in version 6.0. Please migrate to the ComplianceTracker module., (2) Deprecation Warning 
+LegacyCRM,Legacy audit service will be deprecated in version 6.0. Please migrate to the ComplianceTracker module., (2) Deprecation Warning 
+LegacyCRM,The 'ClassicNotificationCenter' module is no longer supported. Use 'UnifiedAlertManager' instead., (2) Deprecation Warning 
+LegacyCRM,The 'ClassicNotificationCenter' module is no longer supported. Use 'UnifiedAlertManager' instead., (2) Deprecation Warning 
+LegacyCRM,The 'DataBridgeConnector' component will be retired after December 2026., (2) Deprecation Warning 
+LegacyCRM,The 'DataBridgeConnector' component will be retired after December 2026., (2) Deprecation Warning 
+LegacyCRM,Migration validation failed because tenant configuration dependencies were unresolved., Workflow Error 
+LegacyCRM,Migration validation failed because tenant configuration dependencies were unresolved., Workflow Error 
+LegacyCRM,Realtime sync process aborted because websocket authentication tokens expired unexpectedly., Workflow Error 
+LegacyCRM,Realtime sync process aborted because websocket authentication tokens expired unexpectedly., Workflow Error 
+LegacyCRM,Knowledge base indexing failed because embedded document references exceeded parser limits., Workflow Error 
+LegacyCRM,Knowledge base indexing failed because embedded document references exceeded parser limits., Workflow Error 
+LegacyCRM,Bulk notification delivery paused because SMS provider quota limits were exceeded., Workflow Error 
+LegacyCRM,Bulk notification delivery paused because SMS provider quota limits were exceeded., Workflow Error 
+LegacyCRM,Template synchronization failed because shared localization resources were unavailable., Workflow Error 
+LegacyCRM,Template synchronization failed because shared localization resources were unavailable., Workflow Error 
+LegacyCRM,Tenant provisioning failed because regional failover clusters did not acknowledge deployment state., Workflow Error 
+LegacyCRM,Tenant provisioning failed because regional failover clusters did not acknowledge deployment state., Workflow Error 
+LegacyCRM,Campaign analytics aggregation aborted because downstream event streams contained duplicate partitions., Workflow Error 
+LegacyCRM,Campaign analytics aggregation aborted because downstream event streams contained duplicate partitions., Workflow Error 
